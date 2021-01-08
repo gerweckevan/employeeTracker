@@ -1,0 +1,28 @@
+{
+  "name": "employeetracker",
+  "version": "1.0.0",
+  "description": "A simple application used to track employee positions and be able to view their managers!",
+  "main": "server.js",
+  "dependencies": {
+    "ascii-art": "^2.5.0",
+    "asciiart-logo": "^0.2.6",
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerweckevan/employeeTracker.git"
+  },
+  "author": "Evan Gerweck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerweckevan/employeeTracker/issues"
+  },
+  "homepage": "https://github.com/gerweckevan/employeeTracker#readme"
+}
